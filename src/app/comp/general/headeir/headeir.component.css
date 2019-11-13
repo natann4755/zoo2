@@ -1,0 +1,19 @@
+.bigdiv{
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+}
+.logo{
+    margin: 3%;
+}
+.user{
+    font-size: 25px;
+    font-style: italic;
+    margin: 3%;
+}
+app-nav{
+   width: 40%;
+   padding-top: 7%;
+   font-size: 27px;
+   
+}
