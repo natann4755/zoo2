@@ -12,5 +12,8 @@ export class BirdPanelComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  corect(num:number):void{
+    this.srvbirds.currentbirdindex=num
+    this.srvbirds.currentbird=this.srvbirds.birds[num]
+  }
 }

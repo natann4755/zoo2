@@ -16,5 +16,6 @@ export class BeastsServiceService {
     ];
     currentbeastindex=0;
   currentbeast=this.beasts[this.currentbeastindex];
+  delta=0
 
 }

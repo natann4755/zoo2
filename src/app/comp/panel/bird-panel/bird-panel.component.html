@@ -6,7 +6,14 @@
             <h2>the list of birds</h2>
 
             <ul>
-                <li *ngFor="let b of srvbirds.birds">{{b.name}}</li>
+                <!-- <li *ngFor="let b of srvbirds.birds">{{b.name}}</li> -->
+                <li (click)="corect(0)">{{srvbirds.birds[0].name}}</li>
+                <li (click)="corect(1)">{{srvbirds.birds[1].name}}</li>
+                <li (click)="corect(2)">{{srvbirds.birds[2].name}}</li>
+                <li (click)="corect(3)">{{srvbirds.birds[3].name}}</li>
+                <li (click)="corect(4)">{{srvbirds.birds[4].name}}</li>
+                <li (click)="corect(5)">{{srvbirds.birds[5].name}}</li>
+                <li (click)="corect(6)">{{srvbirds.birds[6].name}}</li>
             </ul>
         </div>
 

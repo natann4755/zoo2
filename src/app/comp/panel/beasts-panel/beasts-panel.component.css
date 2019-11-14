@@ -8,3 +8,7 @@ h1{
 li{
     margin: 3%;
 }
+li:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}

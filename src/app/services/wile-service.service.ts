@@ -17,5 +17,5 @@ export class WileServiceService {
 // {name:'brown tail',whit:5,food:'onyen',life:'5y',growingPlace:'warsa',img:'https://i.pinimg.com/originals/f4/a1/c7/f4a1c75030e1f26ea27a2b0d1f7574af.jpg'},
   currentwildindex=0
   currentwild=this.wiles[this.currentwildindex]
-
+  delta=0
 }

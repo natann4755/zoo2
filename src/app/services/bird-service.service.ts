@@ -17,5 +17,6 @@ export class BirdServiceService {
   ]
   currentbirdindex=0
   currentbird=this.birds[this.currentbirdindex]
+  delta=0
 }
  
